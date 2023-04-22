@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(img/telefono.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.for{
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+    padding-top: 30px;
+    color: white;
+    top: 100px;
+    border-radius:10px ;
+    box-shadow:  0px 9px 14px  rgb(32, 32, 31);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  
+   
+    
+    
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border: transparent;
+    background: transparent;
+   
+    border-bottom:  solid 1px white ;
+  
+    
+}re
+
+input:hover{
+    box-shadow: inset 0 0 0 2px transparent;
+    background: transparent;
+    
+}
+
+input:focus, input:active {
+    outline: 0;
+    box-shadow: inset 0 0 0 2px transparent;
+    background: transparent;
+  }
+
+.h3-1{
+    position: relative;
+    left: -90px;
+}
+
+.h3-2{
+    position: relative;
+    left: -100px;
+}
+
+.h3-3{
+    position: relative;
+   
+    left: -80px;
+}
+
+.input-1{
+    position: relative;
+    top: 20px;
+   
+}
+
+.input-2{
+    position: relative;
+    top: 30px;
+}
+
+.input-3{
+    position: relative;
+    top: 40px;
+}
+
+.button{
+    position: relative;
+    top: 70px;
+    width: 100px;
+    height: 40px;
+    background: white;
+    border: solid white;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: all 0.3s;
+    color: black;
+}
+
+.button:hover{
+    background: white;
+    color: black;
+
+}
+
+.input1{
+    background: transparent;
+    border-bottom:  solid 1px white ;
+}
+
+.war{
+    color: red;
+    position: relative;
+    top: 90px;
+    opacity: 0;
+    
+    
+}
+
+/* responsive */
+
+@media screen  and  (min-width : 600px  ){
+    .for{
+        font-size: 1.2em;
+
+    }
+}
