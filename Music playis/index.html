@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sound</title>
+</head>
+<body>
+    <div class="content" >
+        <center>
+            <div class="M-L" id="k1">
+                <center><img src="img/OIP (1).jpg" alt=""  id="img"  class="m-img"></center>
+                <audio src="video/7RU7H - Lying To Myself (Lyrics).mp4" id="audio"></audio>
+               <center><h1>Mashmello- Lying to Myself</h1></center>
+               <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Explicabo totam blanditiis
+                 laborum odit nostrum quae quos corporis molestiae,
+                </p>
+                <button id="play" onclick="Empezar()">Play</button>
+                <button id="pause" onclick="Pausar()">Pause</button>
+                <br>
+                <br>
+                <input type="range" min="0" max="50000 " class="mi-rango" id="input" oninput="changeFrequency(this.value)">
+            </div>
+            <!-- segunndo -->
+            <div class="M-L" style="position: relative; left: 400px; top: -435px;">
+                <center><img src="img/949f0dd1462d11c07d3890cbc14db825--naruto-kakashi-anime-naruto.jpg" alt=""   class="m-img" width="200px" height="200px"></center>
+                <audio src="video/Eredaze - Till I Find - copia (2).mp4" id="audio3"></audio>
+               <center><h1>Keiot- Ederaze</h1></center>
+               <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Explicabo totam blanditiis
+                 laborum odit nostrum quae quos corporis molestiae,
+                </p>
+                <button id="play1" onclick="Empezar3()" >Play</button>
+                <button id="pause1" onclick="Pausa3()">Pause</button>
+                <br>
+                <br>
+                <input type="range" min="0" max="50000 " class="mi-rango" id="input" oninput="changeFrequency(this.value)">
+            </div>
+            <!-- tercero -->
+           
+                <div class="M-L"  style="position: relative; right: 400px; top: -935px;" >
+                <center><img src="img/OIP0.jpg" alt="" class="m-img" width="200px" height="200px"></center>
+                <audio src="video/Thekidszn - Leave Me Alone (Lyrics).mp4" id="audio1"></audio>
+               <center><h1>Tincking- Leave me lone</h1></center>
+               <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Explicabo totam blanditiis
+                 laborum odit nostrum quae quos corporis molestiae,
+                </p>
+                <button id="play2" onclick="Empezar1()">Play</button>
+                <button id="pause2" onclick="Pausa1()">Pause</button>
+                <br>
+                <br>
+                <input type="range" min="0" max="50000 " class="mi-rango" id="input" oninput="changeFrequency(this.value)">
+            </div>
+            
+        </center>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
